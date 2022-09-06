@@ -12,21 +12,25 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
     </head>
     <body>
+        <h2 id="clock">00:00</h2>
         <form class="hidden" id="login-form">
             <input 
             required 
             maxlength="10" 
             type="text" 
-            placeholder="이름이 뭐에요?">
-            <input type="submit" value="Log In"></input> 
+            placeholder="Type your name here">
+            <!-- <input type="submit" value="Log In"></input>  -->
         </form>
-        <h2 id="clock">00:00</h2>
         <h1 id="greeting" class="hidden"></h1>        
         <form id="todo-form">
             <input type="text" placeholder="Write a To Do and Press Enter" required/>
         </form>
         <ul id="todo-list"></ul>
         <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="weather">
             <span></span>
             <span></span>
         </div>
