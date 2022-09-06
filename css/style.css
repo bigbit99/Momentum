@@ -1,3 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+    /* overflow-x: hidden; */
+    color:#fff;
+}
+
 .hidden { 
     display: none;
+}
+
+/* login&greeing */
+#login-form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#login-form input{ 
+    width:300px;
+    padding:10px;
+    border: none;
+    color:#fff;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    font-size:1.5rem;
+    text-shadow: 0 0 0 black;
+    text-align: center;
+    outline: none;
+}
+
+#login-form input::placeholder {
+    color:#fff;
+    opacity: 0.6;
+    text-align: center;
+}
+#greeting {
+    text-align: center;
+}
+
+#todo-form {
+    text-align: center;
+}
+#todo-form input {
+    width:400px;
+    padding:10px;
+    border: none;
+    color:#fff;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    font-size:1.5rem;
+    text-shadow: 0 0 0 black;
+    text-align: center;
+    outline: none;
+}
+#todo-form input::placeholder {
+    color:#fff;
+    opacity: 0.6;
+    text-align: center;
+}
+
+
+/* clock */
+#clock { 
+    font-size:11rem;
+    text-align: center;
+    margin-bottom: 10px;
 }
