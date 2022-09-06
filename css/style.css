@@ -1,8 +1,19 @@
-body{
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
     margin:0;
     padding:0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body{
+   
     /* overflow-x: hidden; */
     color:#fff;
+    width:100%;
+    height: 100vh;
+    max-width: 1920px;
+    position: relative;
 }
 
 .hidden { 
@@ -38,6 +49,7 @@ body{
 
 #todo-form {
     text-align: center;
+    margin-bottom: 30px;
 }
 #todo-form input {
     width:400px;
@@ -57,10 +69,40 @@ body{
     text-align: center;
 }
 
+#todo-list { 
+    text-align: center;
+}
+#todo-list li{ 
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+}
+#todo-list li span {
+    margin-right: 10px;
+}
+#todo-list li button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
 
 /* clock */
 #clock { 
-    font-size:11rem;
+    font-size:10rem;
     text-align: center;
     margin-bottom: 10px;
+}
+
+/* quote */
+#quote {
+    position: absolute;
+    bottom:5%;
+    left: 2%;
+}
+
+#weather{
+    position: absolute;
+    right: 3%;
+    top:5%;
+
 }
